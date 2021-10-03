@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-image: linear-gradient(to right, rgb(0, 31, 78), #582170); */
+  background: #582170;
+    font-family: "Oswald", sans-serif;
+}
+hr {
+  width: 95%;
+  margin: 10px auto;
+}
+.container {
+    background: #ecf4ff;
+    padding: 1%;
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0e1d2f;
+    color: #1c1c1c;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.perfil {
+  display: flex;
+  align-items: center;
+}
+.img-perfil {
+  border-radius: 50%;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.titulo {
+  margin-left: 15px;
+}
+
+.titulo h1 {
+  font-weight: 300;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 200;
+  font-size: 24px;
+  margin: 10px 0 5px 0;
+}
+.projetos {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 10px auto;
+}
+.icon {
+    width: 32px;
+    margin-right: 15px;
+}
+.social-media {
+    width: 80%;
+    margin: 10px auto;
+}
+
+@media (max-width: 420px) {
+  .perfil {
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-perfil {
+      margin-top: 10px;
+  }
+}
